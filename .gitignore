@@ -1,0 +1,18 @@
+# Binários
+netkit
+netkit.exe
+/dist/
+
+# Go
+*.test
+*.out
+vendor/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# SO
+.DS_Store
+Thumbs.db

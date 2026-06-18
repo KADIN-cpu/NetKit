@@ -4,8 +4,6 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go&logoColor=white)](https://go.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/KADIN-cpu/netkit/actions/workflows/build.yml/badge.svg)](https://github.com/KADIN-cpu/netkit/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/KADIN-cpu/netkit)](https://goreportcard.com/report/github.com/KADIN-cpu/netkit)
 
 `netkit` reúne as tarefas de diagnóstico de rede e sistema mais comuns num único binário, sem depender de scripts soltos espalhados pela máquina. Funciona em **Windows, Linux e macOS**.
 
@@ -47,25 +45,6 @@ make build      # ou: go build -o netkit .
 
 ```bash
 netkit sysinfo
-```
-
-```
-» Sistema
-  Hostname      meu-pc
-  SO            linux
-  Plataforma    ubuntu 22.04
-  Arquitetura   x86_64
-  Uptime        12d 4h 33m
-
-» CPU
-  Modelo        Intel(R) Core(TM) i7-10700
-  Núcleos       8
-  Uso           14.2%
-
-» Memória
-  Total         16.0 GiB
-  Em uso        9.4 GiB
-  Uso           58.7%
 ```
 
 ### Ping / varredura de rede
